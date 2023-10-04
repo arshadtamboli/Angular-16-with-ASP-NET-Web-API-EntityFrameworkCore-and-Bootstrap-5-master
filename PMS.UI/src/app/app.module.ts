@@ -8,13 +8,19 @@ import { AppComponent } from './app.component';
 import { ProductsComponent } from './components/products/products.component';
 import { AddProductComponent } from './components/add-product/add-product.component';
 import { EditProductComponent } from './components/edit-product/edit-product.component';
+import { SuppliersComponent } from './components/Suppliers/suppliers/suppliers.component';
+import { AddSupplierComponent } from './components/Suppliers/suppliers/AddSupplier/AddSupplier/AddSupplier.component';
+import { EditSupplierComponent } from './components/Suppliers/suppliers/EditSupplier/EditSupplier/EditSupplier.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProductsComponent,
     AddProductComponent,
-    EditProductComponent
+    EditProductComponent,
+    SuppliersComponent,
+    AddSupplierComponent,
+    EditSupplierComponent
   ],
   imports: [
     BrowserModule,
